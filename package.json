@@ -1,0 +1,22 @@
+{
+    "name": "serenity",
+    "displayName": "Serenity",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Roman Chesnokov",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Serenity",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Serenity-color-theme.json"
+            }
+        ]
+    }
+}
