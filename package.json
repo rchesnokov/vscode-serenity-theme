@@ -1,0 +1,32 @@
+{
+  "name": "serenity-theme",
+  "displayName": "Serenity Theme",
+  "description": "Keep calm ☁️ code on",
+  "version": "0.0.4",
+  "publisher": "rchesnokov",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "galleryBanner": {
+    "color": "#262b3b",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Serenity",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Serenity-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchesnokov/vscode-serenity-theme"
+  }
+}
