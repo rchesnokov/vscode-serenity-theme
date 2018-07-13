@@ -60,6 +60,7 @@
 		{
 			"name": "Keywords, Attributes",
 			"scope": [
+				"entity.other.attribute-name.js",
 				"meta.attribute-with-value.id.html",
 				"entity.other.attribute-name.id.html",
 				"meta.attribute-with-value.class.html",
@@ -69,7 +70,8 @@
 				"entity.name.tag.reference"
 			],
 			"settings": {
-				"foreground": "#eeffa3"
+				"fontStyle": "italic",
+				"foreground": "#fdfcd8"
 			}
 		},
 		{
@@ -93,7 +95,6 @@
 				"constant.other.color"
 			],
 			"settings": {
-				// "foreground": "#ffac40",
 				"foreground": "#ffa386"
 			}
 		},
@@ -257,65 +258,23 @@
 				"foreground": "#bacfdb"
 			}
 		},
-		{
-			"name": "Invalid",
-			"scope": [
-				"invalid",
-				"invalid.illegal",
-				"invalid.broken"
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "diff.header",
-			"scope": [
-				"meta.diff",
-				"meta.diff.header"
-			],
-			"settings": {
-				"foreground": "#99feff"
-			}
-		},
-		{
-			"name": "diff.deleted",
-			"scope": "markup.deleted",
-			"settings": {
-				"foreground": "#ff9580"
-			}
-		},
-		{
-			"name": "diff.inserted",
-			"scope": "markup.inserted",
-			"settings": {
-				"foreground": "#7acc7c"
-			}
-		},
-		{
-			"name": "diff.changed",
-			"scope": "markup.changed",
-			"settings": {
-				"foreground": "#ffa040"
-			}
-		}
 	],
 	"colors": {
 		// "editor.background": "#242633",
 		"editor.background": "#262b3b",
-		// "editorCursor.foreground": "#a495ff",
 		"editorCursor.foreground": "#ffc830",
 		"editor.foreground": "#E0E0E0",
 		"editorWhitespace.foreground": "#3B3A32",
 		"editor.lineHighlightBackground": "#303030",
 		"editor.selectionBackground": "#8992A3",
+		"editorBracketMatch.border": "#ffc830",
 		"activityBar.background": "#2a2e42",
 		"sideBar.background": "#24293a",
 		"sideBar.foreground": "#979797",
 		"sideBarSectionHeader.background": "#2a2e42",
 		"sideBarSectionHeader.foreground": "#b9b9b9",
-		// "statusBar.background": "#475386",
-		// "statusBar.background": "#ffc830"
+		"list.activeSelectionBackground": "#3d6580",
+		"list.hoverBackground": "#45505e",
 		"statusBar.background": "#ffc830",
 		"statusBar.foreground": "#222222",
 		"titleBar.activeBackground": "#24293a",
@@ -323,7 +282,9 @@
 		"editorGroupHeader.tabsBackground": "#24293a",
 		"tab.inactiveBackground": "#24293a",
 		"tab.activeBackground": "#2a2e42",
-		"tab.activeForeground": "#f6f6f6"
+		"tab.activeForeground": "#f6f6f6",
+		"gitDecoration.modifiedResourceForeground": "#ffc830",
+		"gitDecoration.untrackedResourceForeground": "#76cc8b"
 	},
 	"name": "Serenity"
 }
