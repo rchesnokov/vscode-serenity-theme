@@ -3,7 +3,7 @@
   "displayName": "Serenity Theme",
   "description": "☁️☁️☁️ Keep calm and code on ☁️☁️☁️",
   "version": "0.0.1",
-  "publisher": "Roman Chesnokov",
+  "publisher": "rchesnokov",
   "license": "SEE LICENSE IN LICENSE",
   "engines": {
     "vscode": "^1.19.0"
