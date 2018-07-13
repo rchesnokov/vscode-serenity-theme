@@ -1,22 +1,32 @@
 {
-    "name": "serenity",
-    "displayName": "Serenity",
-    "description": "",
-    "version": "0.0.1",
-    "publisher": "Roman Chesnokov",
-    "engines": {
-        "vscode": "^1.19.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Serenity",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Serenity-color-theme.json"
-            }
-        ]
-    }
+  "name": "serenity-theme",
+  "displayName": "Serenity Theme",
+  "description": "☁️☁️☁️ Keep calm and code on ☁️☁️☁️",
+  "version": "0.0.1",
+  "publisher": "Roman Chesnokov",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "galleryBanner": {
+    "color": "#262b3b",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Serenity",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Serenity-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchesnokov/vscode-serenity-theme"
+  }
 }
