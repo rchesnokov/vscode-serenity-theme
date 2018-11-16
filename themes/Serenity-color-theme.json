@@ -51,7 +51,7 @@
       "name": "Tag",
       "scope": ["entity.name.tag", "meta.tag.sgml"],
       "settings": {
-        "foreground": "#808282"
+        "foreground": "#FEA044"
       }
     },
     {
@@ -68,12 +68,19 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fdfcd8"
+        "foreground": "#ffc830"
       }
     },
     {
       "name": "Number",
       "scope": ["constant.numeric", "constant.numeric.scss"],
+      "settings": {
+        "foreground": "#ff68ae"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": ["constant.language.boolean"],
       "settings": {
         "foreground": "#ff68ae"
       }
@@ -147,8 +154,12 @@
         "variable.language",
         "keyword.operator.new",
         "keyword.other.substitution",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
         "entity.other.attribute-name.pseudo-element",
-        "entity.other.attribute-name.pseudo-class"
+        "entity.other.attribute-name.pseudo-class",
+        "punctuation.definition.generic"
       ],
       "settings": {
         "foreground": "#7a70b3"
@@ -221,9 +232,7 @@
       "scope": [
         "constant.other.object.key.js",
         "support.type.property-name",
-        "meta.object.member.js",
         "meta.objectliteral.js",
-        "meta.object-literal.key.js",
         "meta.tag",
         "punctuation.definition.tag",
         "punctuation.definition.tag.html",
@@ -233,6 +242,13 @@
       "settings": {
         "foreground": "#aaa",
         "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Object property",
+      "scope": ["meta.object.member.js", "meta.object-literal.key.js"],
+      "settings": {
+        "foreground": "#e0ecff"
       }
     },
     {
@@ -259,7 +275,7 @@
     "editor.selectionBackground": "#8992A3",
     "editorBracketMatch.border": "#ffc830",
     "activityBar.background": "#2a2e42",
-    "sideBar.background": "#24293a",
+    "sideBar.background": "#262b3b",
     "sideBar.foreground": "#979797",
     "sideBarSectionHeader.background": "#2a2e42",
     "sideBarSectionHeader.foreground": "#b9b9b9",
@@ -267,12 +283,15 @@
     "list.hoverBackground": "#45505e",
     "statusBar.background": "#ffc830",
     "statusBar.foreground": "#222222",
+    "statusBar.noFolderBackground": "#FEA044",
     "titleBar.activeBackground": "#24293a",
     "panel.background": "#24293a",
     "editorGroupHeader.tabsBackground": "#24293a",
-    "tab.inactiveBackground": "#24293a",
+    "editorGroupHeader.tabsBorder": "#262b3b",
+    "tab.inactiveBackground": "#262b3b",
     "tab.activeBackground": "#2a2e42",
     "tab.activeForeground": "#f6f6f6",
+    "scrollbar.shadow": "#262b3b",
     "gitDecoration.modifiedResourceForeground": "#ffc830",
     "gitDecoration.untrackedResourceForeground": "#76cc8b"
   },
