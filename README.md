@@ -7,9 +7,7 @@
 
 ## About
 
-I always found most of present themes either ugly or very eye-straining.
-
-So i've built my own one with 3 things in mind:
+I've built this theme with 3 things in mind:
 
 - it should be easy on eyes for all-day (or all-night :) coding
 - yet it should be colorful and pleasant for an eye
