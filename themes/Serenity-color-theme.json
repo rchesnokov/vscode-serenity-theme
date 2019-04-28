@@ -277,7 +277,7 @@
     "activityBar.background": "#2a2e42",
     "activityBarBadge.background": "#ffc830",
     "activityBarBadge.foreground": "#222222",
-    "editorLineNumber.foreground": "#333a52",
+    "editorLineNumber.foreground": "#979797",
     "editorLineNumber.activeForeground": "#546086",
     "sideBar.background": "#262b3b",
     "sideBar.foreground": "#979797",
