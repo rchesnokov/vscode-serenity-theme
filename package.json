@@ -2,7 +2,7 @@
   "name": "serenity-theme",
   "displayName": "Serenity Theme",
   "description": "Keep calm ☁️ code on",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "rchesnokov",
   "license": "SEE LICENSE IN LICENSE",
   "engines": {
@@ -21,17 +21,17 @@
       {
         "label": "Serenity Day",
         "uiTheme": "vs",
-        "path": "./themes/Serenity-day.json"
+        "path": "./themes/Serenity-day-color-theme.json"
       },
       {
         "label": "Serenity Evening",
         "uiTheme": "vs-dark",
-        "path": "./themes/Serenity-evening.json"
+        "path": "./themes/Serenity-evening-color-theme.json"
       },
       {
         "label": "Serenity Midnight",
         "uiTheme": "vs-dark",
-        "path": "./themes/Serenity-midnight.json"
+        "path": "./themes/Serenity-midnight-color-theme.json"
       }
     ]
   },
