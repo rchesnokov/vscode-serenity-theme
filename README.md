@@ -1,10 +1,5 @@
 # Serenity theme
 
-## Preview
-
-![preview](https://i.imgur.com/BJlAMTh.png)
-[_full-size link_](https://i.imgur.com/BJlAMTh.png)
-
 ## About
 
 I've built this theme with 3 things in mind:
