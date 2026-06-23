@@ -15,7 +15,8 @@
         "markup.changed.git_gutter"
       ],
       "settings": {
-        "foreground": "#913000"
+        "foreground": "#0098a6",
+        "fontStyle": ""
       }
     },
     {
@@ -46,7 +47,8 @@
         "entity.name.tag.less"
       ],
       "settings": {
-        "foreground": "#de005c"
+        "foreground": "#be0053",
+        "fontStyle": ""
       }
     },
     {
@@ -62,14 +64,15 @@
         "keyword.operator.module"
       ],
       "settings": {
-        "foreground": "#4730ad"
+        "foreground": "#0050ac",
+        "fontStyle": ""
       }
     },
     {
       "name": "Keyword",
       "scope": ["keyword", "entity.name.tag.other", "entity.name.tag.reference.scss"],
       "settings": {
-        "foreground": "#cc4588",
+        "foreground": "#c35392",
         "fontStyle": "bold"
       }
     },
@@ -88,7 +91,7 @@
           "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#2c6aa4",
+        "foreground": "#1a65ac",
         "fontStyle": ""
       }
     },
@@ -105,7 +108,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#8222be",
+        "foreground": "#622b84",
         "fontStyle": ""
       }
     },
@@ -113,11 +116,12 @@
       "name": "Parameter",
       "scope": [
         "meta.parameters",
-        "variable.parameter.tsx",
+        "variable.parameter",
         "variable.scss"
       ],
       "settings": {
-        "foreground": "#7d50ad"
+        "foreground": "#544b85",
+        "fontStyle": ""
       }
     },
     {
@@ -137,7 +141,8 @@
         "keyword.operator.accessor"
       ],
       "settings": {
-        "foreground": "#8494d5"
+        "foreground": "#8093de",
+        "fontStyle": ""
       }
     },
     {
@@ -156,7 +161,7 @@
         "punctuation.definition.generic"
       ],
       "settings": {
-        "foreground": "#6758b7",
+        "foreground": "#5f50b3",
         "fontStyle": "bold"
       }
     },
@@ -173,7 +178,8 @@
         "meta.attribute-selector.scss"
       ],
       "settings": {
-        "foreground": "#008195"
+        "foreground": "#9e6320",
+        "fontStyle": ""
       }
     },
     {
@@ -186,7 +192,8 @@
         "support.type.builtin"
       ],
       "settings": {
-        "foreground": "#008dc5"
+        "foreground": "#8a1382",
+        "fontStyle": ""
       }
     },
     {
@@ -203,7 +210,8 @@
         "meta.jsx.js"
       ],
       "settings": {
-        "foreground": "#561e00"
+        "foreground": "#202076",
+        "fontStyle": ""
       }
     },
     {
@@ -212,7 +220,7 @@
         "support.class.component"
       ],
       "settings": {
-        "foreground": "#c24476",
+        "foreground": "#ca006c",
         "fontStyle": "bold"
       }
     },
@@ -239,8 +247,8 @@
         "entity.name.tag.css"
       ],
       "settings": {
-        "foreground": "#b5005b",
-        "fontStyle": "",
+        "foreground": "#b52100",
+        "fontStyle": ""
       }
     },
     {
@@ -256,7 +264,7 @@
         "entity.name.tag.reference"
       ],
       "settings": {
-        "foreground": "#d10068",
+        "foreground": "#a30044",
         "fontStyle": ""
       }
     },
@@ -312,14 +320,14 @@
     "breadcrumb.activeSelectionForeground": "#ca970b",
     "breadcrumb.background": "#ccd3e6",
     "breadcrumb.foreground": "#7881af",
-    "breadcrumbPicker.background": "#dbe1ef",
+    "breadcrumbPicker.background": "#d4d9e8",
     "button.background": "#556889",
     "button.foreground": "#99d6ff",
     "dropdown.background": "#c7d5ee",
-    "dropdown.listBackground": "#dbe1ef",
-    "editor.background": "#dbe1ef",
+    "dropdown.listBackground": "#d4d9e8",
+    "editor.background": "#d4d9e8",
     "editor.foreground": "#4c4473",
-    "editor.lineHighlightBackground": "#d8e0ef",
+    "editor.lineHighlightBackground": "#ccd5e7",
     "editor.selectionBackground": "#cbd6eb",
     "editorBracketMatch.border": "#846e32",
     "editorCursor.foreground": "#ca970b",
@@ -351,7 +359,7 @@
     "scrollbar.background": "#ccd3e6",
     "scrollbarSlider.background": "#99abce",
     "scrollbar.shadow": "#0000",
-    "sideBar.background": "#dbe1ef",
+    "sideBar.background": "#d4d9e8",
     "sideBar.foreground": "#6a708e",
     "sideBarSectionHeader.background": "#ccd3e6",
     "sideBarSectionHeader.foreground": "#666b7e",
